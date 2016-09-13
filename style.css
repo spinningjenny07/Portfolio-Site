@@ -2,5 +2,60 @@
 
 body {
     background-image: url("images/rainbow_drops.jpg");
-    background-repeat: no-repeat;
+    background-size: 1400px auto;
+    background-repeat: repeat;
+}
+
+/*.container {
+	display: flex;
+}*/
+
+.header {
+	margin-bottom: 10px;
+}
+
+.bw-drop {
+	max-width: 300px;
+	max-height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pink-leaves {
+	max-width: 300px;
+	max-height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rainbow-rock {
+	max-width: 300px;
+	max-height: auto;
+}
+
+.rose {
+	max-width: 300px;
+	max-height: auto;
+}
+
+.sea-urchin {
+	max-width: 300px;
+	max-height: auto;
+}
+
+.name {
+	text-align: left;
+	color: black;
+}
+
+.title {
+	text-align: right;
+	color: white;
+}
+
+.headshot {
+	text-align: center;
+	
 }
