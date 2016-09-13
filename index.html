@@ -3,6 +3,7 @@
 	<head>
 		
 		<meta charset="utf-8">
+		<<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./style.css">
 		<title>Jenny Jones</title>
@@ -10,10 +11,15 @@
 	<body>
 	<div class="container">
 		<div class="header">
-			<img class = "headshot" src="https://scontent.fsnc1-2.fna.fbcdn.net/v/t1.0-1/p160x160/12342713_10205542180936984_3985919322536360211_n.jpg?oh=73c7ca2990e065f9e7607b40cecddc7c&oe=57E984CA" alt="headshot">
-			<h1 class="name">Jenny Jones</h1>
-			<h3 class="title">Full-Stack Web Developer</h3>
-				
+			<div class="header-image">
+				<img class = "headshot" src="https://scontent.fsnc1-2.fna.fbcdn.net/v/t1.0-1/p160x160/12342713_10205542180936984_3985919322536360211_n.jpg?oh=73c7ca2990e065f9e7607b40cecddc7c&oe=57E984CA" alt="headshot">
+			</div>
+			<div class="header-name">
+				<h1 class="name">Jenny Jones</h1>
+			</div>
+			<div class="header-title">
+				<h3 class="title">Full-Stack Web Developer</h3>
+			</div>	
 		</div>
 		<div class="panel panel-default">
   			<div class="panel-heading">
@@ -35,7 +41,7 @@
 		<div class="portfolio">
 			<h2>Portfolio</h2>
 		</div>
-			<div class="panel panel-default">
+			<!-- <div class="panel panel-default">
 				<div class="panel-heading">
 					<a href="jobs.html">Project 1</a>
 				</div>
@@ -58,11 +64,35 @@
 				<div class="panel-body">
 					<img class="sea-urchin" src="images/sea_urchin_rainbow.jpg" alt="rainbow sea urchin">
 				</div>
-			</div>
-			<!-- <div class="project">
-				<h3>Project 3</h3>
-				<img src="images/sea_urchin_rainbow.jpg">
 			</div> -->
+		<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"></div>
+
+  <!-- Table -->
+  <table class="table">
+	  <thead>
+    	<tr>
+      		<th>Project 1</th>
+      		<th>Project 2</th>
+      		<th>Project 3</th>
+    	</tr>
+  	</thead>
+  	<!-- <tfoot>
+    	<tr>
+      		<td>Footer content 1</td>
+      		<td>Footer content 2</td>
+    	</tr>
+  	</tfoot> -->
+  	<tbody>
+    	<tr>
+      		<td><img class="rainbow-rock" src="images/rainbow_rock.jpg" alt="rainbow rock"></td>
+      		<td><img class="rose" src="images/rose_small.jpg" alt="rose"></td>
+      		<td><img class="sea-urchin" src="images/sea_urchin_rainbow.jpg" alt="rainbow sea urchin"></td>
+    	</tr>
+  	</tbody>
+</table>
+</div>
 	</div>
 	</body>
 </html>
