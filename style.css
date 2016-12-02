@@ -1,17 +1,51 @@
-
+/*font-family: 'Cuprum', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Marmelad', sans-serif;
+font-family: 'Aclonica', sans-serif;*/
 
 body {
     background-image: url("images/rainbow_drops.jpg");
     background-size: 1400px auto;
     background-repeat: repeat;
+    font-family: 'Philosopher', sans-serif;
 }
 
 /*.container {
 	display: flex;
 }*/
 
+
 .header {
 	margin-bottom: 10px;
+	display: flex;
+}
+
+.column {
+	flex: 1 1 0;
+}
+
+.header-name {
+	font-family: 'Aclonica', sans-serif;
+	text-align: left;
+	color: #EEE;
+}
+
+.flex-group {
+	margin-top: 35px;
+}
+.header-title {
+	color: #EEE;
+	text-align: right;
+}
+
+.header-image {
+	border-radius: 25px;
+	margin-left: 100px;
+	margin-bottom: 25px;
+	
 }
 
 .bw-drop {
@@ -42,22 +76,7 @@ body {
 
 .sea-urchin {
 	max-width: 300px;
-	max-height: auto;
-}
-
-.name {
-	text-align: left;
-	color: black;
-}
-
-.title {
-	text-align: right;
-	color: white;
-}
-
-.headshot {
-	text-align: center;
-	
+	max-height: 200px;
 }
 
 .portfolio {
