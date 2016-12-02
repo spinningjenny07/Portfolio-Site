@@ -13,11 +13,6 @@ body {
     font-family: 'Philosopher', sans-serif;
 }
 
-/*.container {
-	display: flex;
-}*/
-
-
 .header {
 	margin-bottom: 10px;
 	display: flex;
@@ -48,6 +43,10 @@ body {
 	
 }
 
+.project-title {
+	text-align: center;
+}
+
 .bw-drop {
 	max-width: 300px;
 	max-height: auto;
@@ -67,16 +66,19 @@ body {
 .rainbow-rock {
 	max-width: 300px;
 	max-height: auto;
+	margin-left: 25px;
 }
 
 .rose {
 	max-width: 300px;
 	max-height: auto;
+	margin-left: 25px;
 }
 
 .sea-urchin {
 	max-width: 300px;
 	max-height: 200px;
+	margin-left: 35px;
 }
 
 .portfolio {
